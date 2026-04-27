@@ -11,7 +11,7 @@ int main() {
 	std::cout << "witaj " << imie << "! masz " << wiek << " lat\n";
 	wynik = 75 - wiek;
 	if (wynik < 0) {
-		std::cout << "Gratulacje! według statystyk nie powinienes juz zyc od " << -wynik << " lat\n";
+		std::cout << "Gratulacje! według teestytesty statystyk nie powinienes juz zyc od " << -wynik << " lat\n";
 	}
 	else if (wynik > 0) {
 		std::cout << "Biorac srednia dlugosc zycia zostalo Ci jeszcze " << wynik << " lat zycia\n";
