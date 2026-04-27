@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include <cctype>
 
 int main() {
 	std::string imie;
@@ -13,12 +14,12 @@ int main() {
 	while (true) {
 		std::cout << "Wpisz swoja plec k/m\n";
 		std::cin >> plec;
-		if (plec == 'k') {
+		if (tolower(plec) == 'k') {
 			srednia = 87;
 			std::cout << "srednia dlugosc zycia kobiet to 87lat\n";
 			break;
 		}
-		else if (plec == 'm') {
+		else if (tolower(plec) == 'm') {
 			srednia = 75;
 			std::cout << "srednia dlugosc zycia meszczyzn to 75lat\n";
 			break;
